@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main - Prints all the letters except q and e
+ *
  * Returns: 0
+ *
  */
 int main(void)
 {
