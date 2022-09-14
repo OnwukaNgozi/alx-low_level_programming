@@ -5,12 +5,11 @@
  * Return: 0
  *
  */
-
 void print_alphabet_x10(void)
 {
 	char r, d;
-	
-       for (d = 0 ; d <= 9 ; d++)
+
+	for (d = 0 ; d <= 9 ; d++)
        {
 	       for (r = 'a' ; r <= 'z' ; r++)
 	       {
