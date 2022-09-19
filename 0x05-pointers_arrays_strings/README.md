@@ -1,0 +1,1 @@
+C-File containing pointer_arrays_strings
