@@ -2,12 +2,12 @@
 
 /**
  * rev_string - reverese a string
- * @t: string to be reversed
+ * @s: string to be reversed
  *
  * Return: 0
  */
 
-void rev_string(char *t)
+void rev_string(char *s)
 {
 	int i, c, l;
 	char h;
