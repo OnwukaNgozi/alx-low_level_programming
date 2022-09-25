@@ -5,7 +5,6 @@
  * @str: the first parameter
  * Return: int
  */
-
 int count_it(char *str)
 {
 	int count;
@@ -22,37 +21,33 @@ int count_it(char *str)
 }
 
 /**
- * _strncpy - combine two string
+ * _strncat - combine two string
  * @dest: the first parameter
  * @src: the second parameter
  * @n: the third parameter
  * Return: char*
  */
-
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	char *tmp;
 
+	int dest_ct;
+
+	int counter;
+
 	int i;
-	
-	int src_ct;
 
 	tmp = src;
 
-	src_ct = count_it(src);
+	dest_ct = count_it(dest);
 
-	for (i = 0; i < n; i++)
+	counter = 0;
+	for (i = dest_ct; i < (dest_ct + n); i++)
 	{
-		dest[i] = tmp[i];
+		dest[i] = tmp[counter];
+		counter++;
 	}
-
-	if (src_ct < n)
-	{
-		for (i = src_ct; i < n - src_ct; i++)
-		{
-			dest[i] = '\0';
-		}
-	}
-
+	
 	return (dest);
+
 }
