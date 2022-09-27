@@ -6,7 +6,7 @@
  * @a: pointer to start of matrix
  * @size: width of matrix column
  *
- * Return: void
+ * printf: void
  */
 void print_diagsums(int *a, int size)
 {
