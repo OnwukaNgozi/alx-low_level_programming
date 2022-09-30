@@ -10,8 +10,9 @@
 * Return - 0
 */
 
-int main(int argc _attribute_((unused)), char *argvÃ[])
-int main(int argc, char *argv[] _attribute_((unused)))
-int main(int argc, char *argv[])
+int _putchar(char c);
+int main(int argc _attribute_((unused)), char *argvÃ[]);
+int main(int argc, char *argv[] _attribute_((unused)));
+int main(int argc, char *argv[]);
 
 #endif /*MAIN_H*/
