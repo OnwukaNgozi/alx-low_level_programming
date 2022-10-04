@@ -87,7 +87,7 @@ char **strtow(char *str)
 					while (j-- >= 0)
 						free(split[j]);
 					free(split);
-					return(NULL);
+					return (NULL);
 				}
 			}
 		}
