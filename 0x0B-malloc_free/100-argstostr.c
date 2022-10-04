@@ -3,12 +3,11 @@
 /**
  * len - returns length of str
  * @str: string counted
- * Retur: returns the length
+ * Return: returns the length
  */
-
 int len(char *str)
 {
-	int len = 0
+	int len = 0;
 
 	if (str != NULL)
 	{
