@@ -1,6 +1,6 @@
-#ifndef ABSO
-#define ABSO
+#ifndef SUMM
+#define SUMM
 
-#define ABS(X) (((X) < (0)) ? (-(X)) : (X))
+#define SUM(x, y) ((x) + (y))
 
-#endif /* ABS(X) */
+#endif /* SUM */
